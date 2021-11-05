@@ -60,5 +60,7 @@
 	"theme_color": "#fab005",
 	"background_color": "#fab005",
 	"display": "minimal-ui",
-	"start_url": "/"
+	"start_url": "/",
+	"categories": [],
+	"orientation": "portrait-primary"
 }
