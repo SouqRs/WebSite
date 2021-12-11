@@ -1,8 +1,7 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
-	mode: "jit",
-	purge: [
+	content: [
 		"./public/**/*.html",
 		"./src/**/*.{astro,js,jsx,ts,tsx,vue,svelte}",
 	],
@@ -18,5 +17,11 @@ module.exports = {
 		},
 	},
 	variants: {},
-	plugins: [require("@tailwindcss/ui")],
+	plugins: [
+		require("@tailwindcss/forms")({
+			strategy: "class",
+		}),
+		require("@tailwindcss/typography"),
+		require("@tailwindcss/aspect-ratio"),
+	],
 };
