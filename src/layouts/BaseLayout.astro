@@ -1,4 +1,6 @@
 ---
+import "./../assets/css/global.css";
+
 const { title = "SouqRS", description = "High-performant e-commerce API" } =
 	Astro.props;
 ---
@@ -114,11 +116,6 @@ const { title = "SouqRS", description = "High-performant e-commerce API" } =
 			name="msapplication-TileImage"
 			content="/img/favicon/mstile-144x144.png"
 		/>
-
-		<!-- Style -->
-		<style global>
-			@import "./../assets/css/global.css";
-		</style>
 	</head>
 	<body class="flex flex-grow antialiased">
 		<div id="souq-web" class="flex flex-grow">
