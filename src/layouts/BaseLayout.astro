@@ -1,5 +1,5 @@
 ---
-import "./../assets/css/global.css";
+import "./../assets/css/base.css";
 
 const { title = "SouqRS", description = "High-performant e-commerce API" } =
 	Astro.props;
@@ -25,6 +25,7 @@ const { title = "SouqRS", description = "High-performant e-commerce API" } =
 		<meta name="msapplication-config" content="/browserconfig.xml" />
 		<meta name="format-detection" content="telephone=no" />
 		<meta name="twitter:dnt" content="on" />
+		<meta name="turbo-root" content="/" />
 
 		<!-- Links -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin
@@ -35,6 +36,14 @@ const { title = "SouqRS", description = "High-performant e-commerce API" } =
 			href="/site.webmanifest"
 			crossorigin="use-credentials"
 		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap"
+		/>
+
+		<style is:global>
+			@import "./../assets/css/global.css";
+		</style>
 
 		<!-- Favicon -->
 		<link
@@ -117,9 +126,12 @@ const { title = "SouqRS", description = "High-performant e-commerce API" } =
 			content="/img/favicon/mstile-144x144.png"
 		/>
 	</head>
-	<body class="flex flex-grow antialiased">
+	<body class="flex flex-grow">
 		<div id="souq-web" class="flex flex-grow">
-			<slot />
+			<turbo-frame class="grow" id="slot" data-turbo-action="replace">
+				<slot />
+			</turbo-frame>
 		</div>
+		<script> Turbolinks.setProgressBarDelay(50); </script>
 	</body>
 </html>
