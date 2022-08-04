@@ -1,6 +1,7 @@
 {
 	"name": "souq-web",
 	"version": "0.0.3",
+	"description": "📄 Starter template for AstroJS.",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/SouqRs/souq.dev.git"
