@@ -10,7 +10,7 @@
 	"bugs": {
 		"url": "https://github.com/SouqRs/souq.dev/issues"
 	},
-	"author": "lightrix",
+	"author": "souqrs",
 	"license": "MIT",
 	"private": true,
 	"scripts": {
