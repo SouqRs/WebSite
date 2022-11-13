@@ -2,7 +2,6 @@
 	"name": "souq-web",
 	"version": "0.0.1",
 	"description": "",
-	"license": "MIT",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/SouqRs/souq.dev.git"
@@ -11,6 +10,7 @@
 	"bugs": {
 		"url": "https://github.com/SouqRs/souq.dev/issues"
 	},
+	"license": "MIT",
 	"private": true,
 	"scripts": {
 		"build": "astro check && astro build",
