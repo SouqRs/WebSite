@@ -1,4 +1,4 @@
-# [souq.dev] 📄
+# [souq.dev] 🎪
 
 Souq.dev main website.
 
