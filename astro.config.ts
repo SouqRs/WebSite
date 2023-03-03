@@ -6,10 +6,12 @@ import sitemap from "@astrojs/sitemap";
 import compress from "astro-compress";
 import critters from "astro-critters";
 import rome from "astro-rome";
+import worker from "astrojs-service-worker";
 
 export default defineConfig({
 	site: "https://souq.dev",
 	integrations: [
+		import.meta.env.MODE === "production" ? worker() : null,
 		sitemap(),
 		critters({ logger: 1 }),
 		prefetch(),
