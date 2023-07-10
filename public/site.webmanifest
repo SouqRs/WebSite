@@ -1,75 +1,66 @@
 {
-<<<<<<< HEAD
-	"name": "SouqRs",
-	"short_name": "souq",
-	"icons": [
-		{
-			"src": "/img/favicon/android-chrome-36x36.png",
-			"sizes": "36x36",
-			"type": "image/png",
-			"purpose": "any maskable"
-		},
-		{
-			"src": "/img/favicon/android-chrome-48x48.png",
-			"sizes": "48x48",
-			"type": "image/png",
-			"purpose": "any maskable"
-		},
-		{
-			"src": "/img/favicon/android-chrome-72x72.png",
-			"sizes": "72x72",
-			"type": "image/png",
-			"purpose": "any maskable"
-		},
-		{
-			"src": "/img/favicon/android-chrome-96x96.png",
-			"sizes": "96x96",
-			"type": "image/png",
-			"purpose": "any maskable"
-		},
-		{
-			"src": "/img/favicon/android-chrome-144x144.png",
-			"sizes": "144x144",
-			"type": "image/png",
-			"purpose": "any maskable"
-		},
-		{
-			"src": "/img/favicon/android-chrome-192x192.png",
-			"sizes": "192x192",
-			"type": "image/png",
-			"purpose": "any maskable"
-		},
-		{
-			"src": "/img/favicon/android-chrome-256x256.png",
-			"sizes": "256x256",
-			"type": "image/png",
-			"purpose": "any maskable"
-		},
-		{
-			"src": "/img/favicon/android-chrome-384x384.png",
-			"sizes": "384x384",
-			"type": "image/png",
-			"purpose": "any maskable"
-		},
-		{
-			"src": "/img/favicon/android-chrome-512x512.png",
-			"sizes": "512x512",
-			"type": "image/png",
-			"purpose": "any maskable"
-		}
-	],
-	"theme_color": "#fab005",
-	"background_color": "#fab005",
-	"display": "minimal-ui",
-	"start_url": "/",
-=======
-	"background_color": "// TODO Set the background color of the app",
->>>>>>> upstream/main
-	"categories": [],
-	"display": "minimal-ui",
-	"name": "// TODO Use the same title as in template.html",
-	"orientation": "landscape",
-	"short_name": "// TODO Title but lowercase",
-	"start_url": "/",
-	"theme_color": "// TODO Use the same theme color from template.html"
+    "background_color": "#fab005",
+    "categories": [],
+    "display": "minimal-ui",
+    "icons": [
+        {
+            "purpose": "any maskable",
+            "sizes": "36x36",
+            "src": "/img/favicon/android-chrome-36x36.png",
+            "type": "image/png"
+        },
+        {
+            "purpose": "any maskable",
+            "sizes": "48x48",
+            "src": "/img/favicon/android-chrome-48x48.png",
+            "type": "image/png"
+        },
+        {
+            "purpose": "any maskable",
+            "sizes": "72x72",
+            "src": "/img/favicon/android-chrome-72x72.png",
+            "type": "image/png"
+        },
+        {
+            "purpose": "any maskable",
+            "sizes": "96x96",
+            "src": "/img/favicon/android-chrome-96x96.png",
+            "type": "image/png"
+        },
+        {
+            "purpose": "any maskable",
+            "sizes": "144x144",
+            "src": "/img/favicon/android-chrome-144x144.png",
+            "type": "image/png"
+        },
+        {
+            "purpose": "any maskable",
+            "sizes": "192x192",
+            "src": "/img/favicon/android-chrome-192x192.png",
+            "type": "image/png"
+        },
+        {
+            "purpose": "any maskable",
+            "sizes": "256x256",
+            "src": "/img/favicon/android-chrome-256x256.png",
+            "type": "image/png"
+        },
+        {
+            "purpose": "any maskable",
+            "sizes": "384x384",
+            "src": "/img/favicon/android-chrome-384x384.png",
+            "type": "image/png"
+        },
+        {
+            "purpose": "any maskable",
+            "sizes": "512x512",
+            "src": "/img/favicon/android-chrome-512x512.png",
+            "type": "image/png"
+        }
+    ],
+    "name": "SouqRs",
+    "orientation": "landscape",
+    "short_name": "souq",
+    "start_url": "/",
+    "theme_color": "#fab005"
 }
