@@ -62,5 +62,9 @@
 	"orientation": "landscape",
 	"short_name": "souq",
 	"start_url": "/",
+<<<<<<< HEAD
 	"theme_color": "#fab005"
+=======
+	"theme_color": "// TODO Use the same theme color from template.html"
+>>>>>>> upstream/main
 }
