@@ -6,6 +6,7 @@
 	"bugs": {
 		"url": "https://github.com/SouqRs/souq.dev/issues"
 	},
+	"type": "module",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/SouqRs/souq.dev.git"
