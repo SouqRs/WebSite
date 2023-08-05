@@ -1,6 +1,6 @@
-import { initializeApp } from "firebase/app";
+import { initializeApp as Initialize } from "firebase/app";
 
-const firebaseConfig = {
+Initialize({
 	apiKey: "AIzaSyCqdOxv8WlI90ZeLZHjPOXtm0BWib935gM",
 	authDomain: "souqrs.firebaseapp.com",
 	databaseURL: "https://souqrs-default-rtdb.firebaseio.com",
@@ -9,6 +9,4 @@ const firebaseConfig = {
 	messagingSenderId: "686609704824",
 	appId: "1:686609704824:web:f90dcd21825de0d2744a8d",
 	measurementId: "G-MEVM3LGWJH",
-};
-
-initializeApp(firebaseConfig);
+});
