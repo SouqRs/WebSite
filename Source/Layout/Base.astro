@@ -1,5 +1,5 @@
 ---
-import "@styles/Base.css";
+import "@Style/Base.css";
 
 const { title = "SouqRS", description = "High-performant e-commerce API" } =
 	Astro.props;
@@ -44,7 +44,7 @@ const { title = "SouqRS", description = "High-performant e-commerce API" } =
 		/>
 
 		<style is:global>
-			@import "@styles/Global.css";
+			@import "@Style/Global.css";
 		</style>
 
 		<!-- Favicon -->
@@ -134,7 +134,7 @@ const { title = "SouqRS", description = "High-performant e-commerce API" } =
 				<slot />
 			</div>
 			<script>
-				import "@scripts/FIREBASE";
+				import "@Script/FIREBASE";
 			</script>
 		</div>
 	</body>
