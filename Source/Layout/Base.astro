@@ -1,8 +1,13 @@
 ---
 import "@Style/Base.css";
 
-const { title = "SouqRS", description = "High-performant e-commerce API" } =
+const { Title = "SouqRS", Description = "High-performant e-commerce API" } =
 	Astro.props;
+
+interface Props {
+	Title: string;
+	Description: string;
+}
 ---
 
 <!DOCTYPE html>
@@ -14,9 +19,9 @@ const { title = "SouqRS", description = "High-performant e-commerce API" } =
 		</script>
 
 		<!-- Meta -->
-		<title>{title}</title>
+		<title>{Title}</title>
 		<meta charset="utf-8" />
-		<meta name="description" content={description} />
+		<meta name="description" content={Description} />
 		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
 		<meta name="theme-color" content="#fab005" />
 		<meta name="apple-mobile-web-app-capable" content="no" />
