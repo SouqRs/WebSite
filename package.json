@@ -1,14 +1,14 @@
 {
-	"name": "souq-web",
+	"name": "@website/souq_lightrix_help",
 	"version": "0.0.1",
 	"private": false,
-	"homepage": "https://github.com/SouqRs/souq.dev#readme",
+	"homepage": "https://github.com/SouqRs/Website#readme",
 	"bugs": {
-		"url": "https://github.com/SouqRs/souq.dev/issues"
+		"url": "https://github.com/SouqRs/Website/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/SouqRs/souq.dev.git"
+		"url": "git+https://github.com/SouqRs/Website.git"
 	},
 	"license": "MIT",
 	"author": {
@@ -27,7 +27,7 @@
 		"@tailwindcss/aspect-ratio": "0.4.2",
 		"@tailwindcss/forms": "0.5.6",
 		"@tailwindcss/typography": "0.5.10",
-		"astro": "3.0.13",
+		"astro": "3.1.0",
 		"astro-compress": "2.0.16",
 		"astro-critters": "2.0.11",
 		"astro-rome": "2.0.9",
