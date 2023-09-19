@@ -1,13 +1,13 @@
 // @ts-nocheck
 const defaultTheme = require("tailwindcss/defaultTheme");
-
-/** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
 	content: [
 		"./Public/**/*.html",
 		"./Source/**/*.{astro,js,jsx,ts,tsx,vue,svelte}",
 	],
+
 	darkMode: "media",
+
 	theme: {
 		container: {
 			center: true,
@@ -27,7 +27,9 @@ module.exports = {
 			},
 		},
 	},
+
 	variants: {},
+
 	plugins: [
 		require("@tailwindcss/forms"),
 		require("@tailwindcss/typography"),
