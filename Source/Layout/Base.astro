@@ -9,7 +9,13 @@ interface Props {
 	Description?: string;
 }
 
+<<<<<<< HEAD
 export const { Head } = await import("astro-capo");
+=======
+// export const { Head } = await import("astro-capo");
+
+import { Head } from "astro-capo";
+>>>>>>> upstream/main
 ---
 
 <!doctype html>
@@ -55,6 +61,7 @@ export const { Head } = await import("astro-capo");
 		</style>
 
 		<!-- Favicon -->
+<<<<<<< HEAD
 		<link
 			rel="apple-touch-icon"
 			sizes="114x114"
@@ -138,6 +145,18 @@ export const { Head } = await import("astro-capo");
 	<body class="flex flex-grow">
 		<div class="grow">
 			<slot />
+=======
+	</Head>
+	<body>
+		<!-- TODO Generate the ID here -->
+		<div id="">
+			<div class="grow">
+				<slot />
+			</div>
+			<script>
+				import "@Script/Firebase";
+			</script>
+>>>>>>> upstream/main
 		</div>
 		<script>
 			import "@Script/Firebase";
