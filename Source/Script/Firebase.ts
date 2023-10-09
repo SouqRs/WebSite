@@ -1,6 +1,4 @@
-import { initializeApp as Initialize } from "firebase/app";
-
-Initialize({
+(await import("firebase/app")).initializeApp({
 	apiKey: "AIzaSyCqdOxv8WlI90ZeLZHjPOXtm0BWib935gM",
 	authDomain: "souqrs.firebaseapp.com",
 	databaseURL: "https://souqrs-default-rtdb.firebaseio.com",
