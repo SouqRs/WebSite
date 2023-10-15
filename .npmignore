@@ -1,6 +1,8 @@
 .github/
 .turbo/
 Source/
-public/
+CHANGELOG.md
+CODE_OF_CONDUCT.md
 CONTRIBUTING.md
 Documentation/
+public/
