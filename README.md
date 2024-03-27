@@ -1,5 +1,3 @@
-# [souq.dev] 🎪
+# 🗺️ [Website]
 
-Souq.dev main website.
-
-[souq.dev]: https://souq.dev
+[Website]: https://souq.dev
