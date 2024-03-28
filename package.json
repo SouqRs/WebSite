@@ -28,7 +28,11 @@
 		"@tailwindcss/typography": "0.5.12",
 		"astro": "4.5.10",
 		"astro-capo": "0.0.1",
+<<<<<<< HEAD
 		"compress-astro": "0.0.1",
+=======
+		"astro-compress": "2.2.20",
+>>>>>>> 7dc1dbdcf2248dd8c199a87f44acf2e8f944b160
 		"astro-critters": "2.1.6",
 		"astro-biome": "0.0.10",
 		"astrojs-service-worker": "2.0.0",
