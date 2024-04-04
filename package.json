@@ -24,7 +24,7 @@
 		"@astrojs/prefetch": "0.4.1",
 		"@astrojs/sitemap": "3.1.2",
 		"@playform/biome-astro": "0.0.3",
-		"@playform/build": "0.0.1",
+		"@playform/build": "0.0.2",
 		"@playform/compress-astro": "0.0.2",
 		"@playform/critters-astro": "0.0.2",
 		"@tailwindcss/aspect-ratio": "0.4.2",
