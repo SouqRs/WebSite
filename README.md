@@ -1,3 +1,3 @@
 # 🗺️ [Website.]
 
-[Website.]: https://souq.dev
+[Website.]: HTTPS://souq.dev
