@@ -8,7 +8,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+HTTPS://github.com/SouqRs/Website.git"
+		"url": "git+https://github.com/SouqRs/Website.git"
 	},
 	"license": "SEE LICENSE IN LICENSE",
 	"author": {
