@@ -6,7 +6,7 @@ export default defineConfig({
 	srcDir: "./Source",
 	publicDir: "./Public",
 	outDir: "./Target",
-	site: "HTTPS://Souq.Dev",
+	site: "https://Souq.Dev",
 	compressHTML: true,
 	prefetch: {
 		defaultStrategy: "hover",

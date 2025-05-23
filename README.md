@@ -1,3 +1,3 @@
 # [WebSite 🗾]
 
-[WebSite 🗾]: HTTPS://souq.dev
+[WebSite 🗾]: https://souq.dev
